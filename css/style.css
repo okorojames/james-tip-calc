@@ -22,6 +22,16 @@ body {
   background-color: var(--light-greyish-cyan);
   font-size: 1.8rem;
 }
+#tip-cal-section {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
 input {
   text-align: right;
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
