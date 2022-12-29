@@ -32,6 +32,7 @@ input {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--dark-greyish-cyan);
+  margin-left: auto;
 }
 input:hover,
 input:active,
@@ -48,6 +49,11 @@ input {
 .tip-per-btns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+form:first-child {
+  margin-bottom: 2rem;
 }
 form {
   display: flex;
@@ -56,6 +62,10 @@ form {
   background: var(--light-greyish-cyan);
   padding: 1rem 0.9rem;
   border-radius: 0.6rem;
+}
+form:active,
+form:hover {
+  box-shadow: 0 0 0 0.2rem var(--very-dark-cyan);
 }
 .tip-calc-container {
   display: grid;
@@ -76,4 +86,34 @@ form {
   color: var(--dark-greyish-cyan);
   font-weight: 600;
   opacity: 0.7;
+  margin-bottom: 1rem;
+}
+.input-second-h5 {
+  margin-bottom: 1rem;
+  color: var(--greyish-cyan);
+}
+.tip-per-btn {
+  text-decoration: none;
+  color: var(--white);
+  background: var(--very-dark-cyan);
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.8rem;
+  transition: all 0.7s ease-in-out;
+  font-weight: 600;
+}
+.tip-per-btn:hover,
+.tip-per-btn:active {
+  background: rgba(67, 226, 205, 0.699);
+  color: var(--very-dark-cyan);
+}
+/* 
+ */
+/* 
+  */
+/* 
+   */
+.tip-calc-second-col {
+  background: var(--very-dark-cyan);
+  border-radius: 1rem;
+  padding: 2rem 4rem;
 }
