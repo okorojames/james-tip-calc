@@ -20,7 +20,7 @@ html {
 body {
   font-family: "Space Mono", monospace;
   background-color: var(--light-greyish-cyan);
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 #tip-cal-section {
   margin-top: 6rem;
@@ -29,9 +29,51 @@ body {
 }
 input {
   text-align: right;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark-greyish-cyan);
+}
+input:hover,
+input:active,
+input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.form-icon {
+  color: var(--dark-greyish-cyan);
+  font-size: 1.8rem;
+}
+
+.tip-per-btns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 form {
   display: flex;
   align-items: center;
   gap: 1rem;
+  background: var(--light-greyish-cyan);
+  padding: 1rem 0.9rem;
+  border-radius: 0.6rem;
+}
+.tip-calc-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--white);
+  border-radius: 1rem;
+  padding: 4rem;
+}
+.tip-calc-first-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.input-first-paragraph {
+  color: var(--dark-greyish-cyan);
+  font-weight: 600;
+  opacity: 0.7;
 }
