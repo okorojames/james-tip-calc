@@ -3,10 +3,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Tip Calc</title>
   </head>
   <body>
+    <section id="tip-cal-section">
+      <div class="container tip-calc-container grid-two-cols">
+        <!-- first col -->
+        <div class="tip-calc-first-col">
+          <!--  -->
+          <div class="input-first">
+            <p class="input-first-paragraph">Bill</p>
+            <form>
+              $
+              <input type="text" placeholder="0" />
+            </form>
+          </div>
+          <!--  -->
+          <div class="input-second">
+            <h5 class="input-second-h5">Select Tip %</h5>
+            <div class="tip-per-btns">
+              <a href="" class="tip-per-btn five-per">5%</a>
+              <a href="" class="tip-per-btn ten-per">10%</a>
+              <a href="" class="tip-per-btn fiften-per">15%</a>
+              <a href="" class="tip-per-btn twenty-per">20%</a>
+              <a href="" class="tip-per-btn twenty-five-per">25%</a>
+              <a href="" class="tip-per-btn fifty-per">50%</a>
+              <a href="" class="tip-per-btn custom-btn">Custom</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="input-third">
+            <h5 class="input-third-h5">Number of people</h5>
+            <form>
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="0" />
+            </form>
+          </div>
+          <!--  -->
+          <!--  -->
+        </div>
+        <!-- second col -->
+        <div class="tip-calc-second-col"></div>
+      </div>
+    </section>
     <!--  -->
     <script src="js/main.js"></script>
   </body>
