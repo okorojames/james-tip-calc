@@ -142,8 +142,10 @@ form:hover {
 }
 .reset-btn-container {
   display: grid;
+  gap: 1.5rem;
 }
 .reset-btn,
+.sum-btn,
 .reset-btn:hover,
 .reset-btn:active {
   border: none;
@@ -156,4 +158,9 @@ form:hover {
   cursor: pointer;
   border-radius: 0.8rem;
   text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+.sum-btn:hover,
+.sum-btn:active {
+  background: var(--strong-cyan);
 }
