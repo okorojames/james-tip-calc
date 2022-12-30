@@ -1,5 +1,5 @@
 const sumBtn = document.querySelector(".sum-btn");
-const fivePer = document.querySelector(".five-per");
+const percents = document.querySelectorAll(".tip-per-btn");
 //
 //
 sumBtn.addEventListener("click", displaySum);
@@ -12,13 +12,13 @@ function displaySum() {
   const priceOne = document.querySelector(".price-one");
   const priceTwo = document.querySelector(".price-two");
   let billInput = document.querySelector(".bill-input").value.trim();
-  // billInput.value = Number();
   let peopleInput = document.querySelector(".people-input").value.trim();
-  // peopleInput.value = Number();
+  billInput = Number(billInput);
+  peopleInput = Number(peopleInput);
   //
   //
   //
-  const sum = billInput.value + peopleInput.value;
+  let sum = billInput + peopleInput;
   console.log(sum);
   document.querySelector(".bill-input").value = "";
   document.querySelector(".people-input").value = "";
