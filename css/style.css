@@ -115,7 +115,10 @@ form:hover {
 .tip-calc-second-col {
   background: var(--very-dark-cyan);
   border-radius: 1rem;
-  padding: 2rem 4rem;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
 }
 .first-col-price,
 .second-col-price {
@@ -124,6 +127,33 @@ form:hover {
   justify-content: space-between;
   gap: 8rem;
 }
-.item-1-first-p {
+.item-1-first-p,
+.item-2-first-p {
   color: var(--light-greyish-cyan);
+}
+.item-1-second-p,
+.item-2-second-p {
+  color: var(--greyish-cyan);
+}
+.item-2-first-price {
+  color: var(--strong-cyan);
+  font-weight: 700;
+  font-size: 4.4rem;
+}
+.reset-btn-container {
+  display: grid;
+}
+.reset-btn,
+.reset-btn:hover,
+.reset-btn:active {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 0.6rem 0;
+  background: var(--light-greyish-cyan);
+  color: var(--very-dark-cyan);
+  cursor: pointer;
+  border-radius: 0.8rem;
+  text-transform: uppercase;
 }
