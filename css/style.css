@@ -117,3 +117,13 @@ form:hover {
   border-radius: 1rem;
   padding: 2rem 4rem;
 }
+.first-col-price,
+.second-col-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+.item-1-first-p {
+  color: var(--light-greyish-cyan);
+}
