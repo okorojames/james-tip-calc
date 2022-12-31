@@ -143,3 +143,8 @@ form:hover {
 .sum-btn:active {
   background: var(--strong-cyan);
 }
+@media screen and (max-width: 676px) {
+  .tip-calc-container {
+    grid-template-columns: 1fr;
+  }
+}
